@@ -1,0 +1,151 @@
+html, body {
+  height:100%;
+  width:100%;
+  background-color: #5b5b5b;
+  font-family: arial;
+    font-size: 12pt;
+    margin: 20px 0px 20px 0px;
+    overflow-y: scroll;
+}
+
+	
+.page{
+	display: block;
+	width: 1000px;
+	min-height: 800px;
+	overflow: auto;
+	margin: 0px auto 0px auto;
+	box-sizing: border-box;
+	}
+
+.pageHeader{
+    background-color: #ffffff;
+    text-align: center;
+    color:  #2d2d2d;
+    float: left;
+    clear: none;
+    min-height: 200px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    }
+
+.pageNavigationBar{
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    float: left;
+    clear: none;
+    min-height: 50px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    }
+
+.pageBanner{
+    background-color: #f2b4f3;
+    text-align: left;
+    color:  #2d2d2d;
+    float: left;
+    clear: none;
+    min-height: 300px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    }
+
+.pageContent{
+    background-color: #535353;
+    float: left;
+    clear: none;
+    min-height: 550px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    }
+
+.pageFooter{
+    background-color: #000000;
+    color:#ffffff;
+    float: left;
+    clear: none;
+    min-height: 200px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    }
+
+.insertPicture1 {
+    float: left;
+    text-align: center;
+    color: #ffffff;
+    background-color: #7dc2af;
+    min-height: 350px;
+	width: 800px;
+    vertical-align: middle;
+	box-sizing: border-box;
+    border: #000000;
+	padding: 50px; 
+    text-align: center;
+
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+}
+
+.insertTextbox1 {
+    float: right;
+    text-align: center;
+    color: #ffffff;
+    background-color: #779ca7;
+    min-height: 350px;
+	width: 300px;
+    vertical-align: middle;
+	box-sizing: border-box;
+    border: #000000;
+	padding: 50px; 
+    border: 3px #000000;
+    text-align: center;
+
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-right: 10%;
+}
+
+.insertPicture2 {
+    float: right;
+    text-align: center;
+    color: #ffffff;
+    background-color: #7dc2af;
+    min-height: 350px;
+	width: 800px;
+    vertical-align: middle;
+	box-sizing: border-box;
+    border: #000000;
+	padding: 50px; 
+    text-align: center;
+
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-right: 10%;
+}
+
+.insertTextbox2 {
+    float: left;
+    text-align: center;
+    color: #ffffff;
+    background-color: #779ca7;
+    min-height: 350px;
+	width: 300px;
+    vertical-align: middle;
+	box-sizing: border-box;
+    border: #000000;
+	padding: 50px; 
+    border: 3px #000000;
+    text-align: center;
+
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+}
