@@ -1,6 +1,13 @@
+// sticky navigation bar
+window.onscroll = function() {myFunction()};
 
-function nextquizpage() {
-    document.getElementById("headerID").innerHTML = "Ok, I have now received " + 100*counter + " number of clicks"; 
-  
+var header = document.getElementById("pageNavigationBar");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
   }
-  warmup();
+}

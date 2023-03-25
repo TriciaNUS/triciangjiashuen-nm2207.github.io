@@ -1,3 +1,10 @@
+/* colours: 
+    #06083B 
+    #3A386A
+    #7B658B
+    #B992BE
+    #F8F9D1*/
+
 html, body {
   height:100%;
   width:100%;
@@ -7,7 +14,6 @@ html, body {
     margin: 0px 0px 20px 0px;
 }
 
-	
 .page{
 	display: block;
 	width: 1000px;
@@ -18,7 +24,7 @@ html, body {
 	}
 
 .pageHeader{
-    background-color: #ffffff;
+    background-color: #B992BE;
     text-align: center;
     color:  #2d2d2d;
     float: left;
@@ -30,19 +36,29 @@ html, body {
     }
 
 .pageNavigationBar{
-    background-color: #000000;
+    background-color: #3A386A;
     color: #FFFFFF;
     text-align: center;
     float: left;
     clear: none;
-    min-height: 50px;
+    min-height: 65px;
     width: 100%;
     box-sizing: border-box;
     padding: 10px;
     }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    }
+    
+.sticky + .pageNavigationBar{
+padding-top: 102px;
+}
+
 .pageBanner{
-    background-color: #f2b4f3;
+    background-color: #7B658B;
     text-align: left;
     color:  #2d2d2d;
     float: left;
@@ -54,7 +70,7 @@ html, body {
     }
 
 .pageContent{
-    background-color: #535353;
+    background-color: #06083B ;
     float: left;
     clear: none;
     min-height: 550px;
@@ -79,7 +95,7 @@ html, body {
     float: left;
     text-align: center;
     color: #ffffff;
-    background-color: #7dc2af;
+    background-color: #7B658B;
     min-height: 350px;
 	width: 800px;
     vertical-align: middle;
@@ -97,7 +113,7 @@ html, body {
     float: right;
     text-align: center;
     color: #ffffff;
-    background-color: #779ca7;
+    background-color: #F8F9D1;
     min-height: 350px;
 	width: 300px;
     vertical-align: middle;
@@ -116,7 +132,7 @@ html, body {
     float: right;
     text-align: center;
     color: #ffffff;
-    background-color: #7dc2af;
+    background-color: #7B658B;
     min-height: 350px;
 	width: 800px;
     vertical-align: middle;
@@ -134,7 +150,7 @@ html, body {
     float: left;
     text-align: center;
     color: #ffffff;
-    background-color: #779ca7;
+    background-color: #F8F9D1;
     min-height: 350px;
 	width: 300px;
     vertical-align: middle;
