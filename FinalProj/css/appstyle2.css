@@ -1,0 +1,129 @@
+html, body {
+height:100%;
+width:100%;
+padding: 50px
+background-color: #0b244c;
+    font-size: 12pt;
+    margin: 0px 0px 20px 0px;
+}
+
+.page2{
+	background-color: #0b244c;
+	}
+
+.pageHeader{
+    background-image: url(../resources/Edited-anime-fan-art-Spirited-Away-night-Moon-moonlight-clouds-Haku-blue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+    color:  #2d2d2d;
+    float: left;
+    clear: none;
+    min-height: 200px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    }
+
+.header-img {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.webTitle {
+    font-size:xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#F8F9D1;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.navbar *{ /*target all children of navbar, div, span, a ul, etc*/
+    display: inline;
+    justify-content: center;
+}
+
+.navbar li{ /*targets all list items inside navbar */
+    margin: 200px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.navbar li a { /*for hyperlinks */
+    color:#F8F9D1;
+    text-decoration: none;
+    font-size: 1em;
+}  
+
+.navbar {
+    background-color: #42768e;
+    color: #FFFFFF;
+    margin-top: 3px; 
+    box-sizing: border-box; 
+    min-height: 50px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+.nav-container{ 
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    }
+    
+.sticky + .navbar{
+padding-top: 102px;
+}
+
+.pageFooter{
+    background-color: #000000;
+    color:#ffffff;
+    float: left;
+    clear: none;
+    min-height: 200px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    }
+
+
+.pageContent {
+    float: center;
+    text-align: center;
+    color: #ffffff;
+    background-color: #ddbb49;
+    min-height: 1200px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: #000000;
+    padding: 50px; 
+    border: 3px #000000;
+
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 18%;
+    margin-right: 18%;
+
+}
+
