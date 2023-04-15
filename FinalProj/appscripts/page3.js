@@ -157,7 +157,7 @@ var svg = d3.select("#donutChart3")
   .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
 // Create dummy data
-var data5 = {a: 10, b: 10, c:10, d:10, e:10, f:10, g: 10, h:10, i:10, j:10};
+var data5 = {a: 10, b: 10, c:10, d:10, e:10};
 
 // set the color scale
 var color = d3.scaleOrdinal()
