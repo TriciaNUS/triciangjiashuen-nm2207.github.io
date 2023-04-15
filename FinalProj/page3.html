@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8"> <!--standard character encoding, -->
+
+
+<head>
+    <script src=""></script>
+    <link rel="stylesheet" type="text/css" href="css/appstyle3.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script defer type="text/javascript" src="appscripts/page3.js">
+    </script>
+
+    <title>Final Group Project</title>
+</head>
+
+<body>
+<div class="page3">
+        
+    <div class="pageHeaderbg">
+       <div class ="pageHeader">
+            <div class = "headerImg">
+                <img src = "resources/logo3.png"> 
+            </div>
+
+            <div class = "webTitle">
+                <p>
+                    <h1>
+                        <b>Colour of Anime</b>
+                    </h1>
+                </p>
+            </div>
+        </div>
+    </div>
+
+<!-- navigation bar code -->
+    <nav class = "navbar" id = "navbar">
+
+        <ul class = "navbar-pages">
+            <li class="active">
+            <a href ="page1.html">About</a>
+            </li>
+
+            <li>
+            <a href ="page2.html">Quiz</a>
+            </li>
+
+            <li>
+            <a href ="page3.html">Colour Analysis</a>
+            </li>
+            
+        </ul>
+
+    </nav>
+
+<!-- genre selection-->
+        <div class = "navCAbody">
+            <nav class="navCA" id="navCA">
+                <a href="#sgSection">Studio Ghibli
+                    <br>
+                    <span class="CAImageContainer"> <!--similar to div, span is a container within a -->
+                        <img src="resources/howlsmovingcastle1.jpg">
+                    </span>
+                </a>
+                <a href="#cpSection">90s Cyberpunk
+                    <br>
+                    <span class="CAImageContainer"> 
+                        <img src="resources/evangelion.avif">
+                    </span>
+                </a>
+                <a href="#naSection">New Age 
+                    <br>
+                    <span class="CAImageContainer"> 
+                        <img src="resources/yourNameGraphic.jpg">
+                    </span></a>
+                   
+                <div class="animation start-home"></div>
+            </nav>
+        </div> 
+
+<!--Studio Ghibli section-->
+        <div class = "sgSection" id ="sgSection">
+            <div class = "sgTitle">
+                <h1>
+                    <b>Studio Ghibli</b>
+                </h1>
+            </div>
+
+            <div class = "sgintroductionGenre">
+                <div class = "sgintroGenreText">
+                    <div class = "sgpictureGenre">
+                        <img src= "resources/StudioGhibliCollage.jpg">
+                    </div>
+                    <div class = "sgintroGenreTitle">
+                        <h2>Introduction to Studio Ghibli</h2>
+                    </div>
+                    <div class = "sgintroGenreBody">
+                        <p>
+                            The brilliance of Studio Ghibli films are largely attributed to Studio Ghibli's co-founder and director of many of its films - Hayao Miyazaki. Studio Ghibli is well known for its high quality film-making and artistry. Studio Ghibli has revolutionised the way animation has been perceived by audience and the potential animation as a medium as, changing the public's perception of animated movies from merely for children to a medium for all ages through the quality storytelling and animation in many of its films. 
+
+                        </p>
+                        <p>
+                            Miyazaki's films offer audiences a form of escapism in their fantastical worlds, whilst also touching on topics such as environmentalism and relationships, perfectly balancing the spectacle of its fantasy elements with its realism. Miyazaki has truly proven himself to be a phenomenal director and master of space and time with the ability to create empathetic characters. It is no wonder Studio Ghibli's films have captured the hearts of a worldwide audience and developed a loyal audience.
+                        </p>
+                        <p>
+                            However, it is not only the story elements that make Studio Ghibli's films a piece of art, but also the deliberate and poetic use of colours. This contribution was given by the talented animator and colour designer - the late Michiyo Yasuda. To quote Michiyo Yasuda 
+                        </p>
+
+                        <p>
+                            <i>"Color has a meaning and it makes the film more easily understood. Colours and pictures can enhance what the situation is on screen. Viewers inevitably form associations between certain colours and feelings"</i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "movie">
+                <div class = "movieTitle">
+                    <h2>
+                        Kiki's Delivery Service
+                    </h2>
+
+                <div class = "movieTitlePic">
+                    <img src ="resources/kiki2.jpg">
+                </div>
+
+                </div>
+                <div class = "movieSummary">
+                    <h3>
+                        Summary
+                    </h3>
+                    <p>Cute, charming, and whimsical" are some of the words that best describe the 1989 Japanese animated movie "Kiki's Delivery Service." The film, directed by Hayao Miyazaki and produced by Studio Ghibli, follows the story of Kiki, a young witch who sets out on a journey to find her place in the world.</p>
+                    <p>At the age of 13, Kiki leaves home and travels to a coastal town where she establishes her delivery business. With the help of her talking black cat Jiji, Kiki delivers various goods to different people in the town. As she struggles to fit in and make friends, Kiki faces several challenges, including losing her ability to fly and her confidence as a witch. Throughout the movie, Kiki learns valuable life lessons about friendship, independence, and self-discovery, and ultimately realizes that she has the strength and courage to overcome any obstacle. With its delightful characters, stunning animation, and heartwarming story, "Kiki's Delivery Service" has become a beloved classic for audiences of all ages.
+                    </p>
+                </div>
+                <div class = "movieCA">
+                    <div class="moviepicCA">
+                        <img src ="resources/ColourAnalysisPicture/1.png">
+                    </div>
+
+                    <div class ="movieAnalysisCA">
+                        <p>
+                            The colour for Kiki's red ribbon has an rgb value of (183, 9, 40). Due to the high number value of red while green and blue are significantly lower, this results in a bright red . Apart from the shadow red, most of the other colours in this scene display are bright due to their high numerical values for all 3 rgb values, but are more desaturated compared to the vibrant red. 
+                            <br>
+                        </p>
+                        <p>This red stands out from numerous scenes in Kiki's delivery service, which leads audiences to look at Kiki whenever she appears on screen and associate her with her famous red ribbon.  The red could also symbolise the passion that and lively attitude that Kiki adopts throughout the movie.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "movie">
+                <div class = "movieTitle">
+                    <h2>
+                        Princess Mononoke
+                    </h2>
+
+                <div class = "movieTitlePic">
+                    <img src ="resources/princessmononoke1.png">
+                </div>
+
+                </div>
+                <div class = "movieSummary">
+                    <h3>
+                        Summary
+                    </h3>
+                    <p>"Princess Mononoke" is a Japanese animated fantasy film directed by Hayao Miyazaki. The film follows Ashitaka, a young prince, who becomes involved in a struggle between the forest gods and the humans who are destroying the forest to produce iron. 
+                    </p>
+                    <p>The film explores themes of environmentalism, industrialization, and the relationship between humans and nature. It features strong female characters, including the titular character, San (Princess Mononoke), who was raised by wolves and fights against the humans who threaten her home. The film is known for its stunning animation, complex characters, and powerful themes.
+                    </p>
+                </div>
+                <div class = "movieCA">
+                    <div class="moviepicCA">
+                        <img src ="resources/ColourAnalysisPicture/2.png">
+                    </div>
+
+                    <div class ="movieAnalysisCA">
+                        <p>
+                            The main hues that can be observed in this scene are that of reds, greens and blues. As a result, the numerical values of red, blue and green are not far off from each other. Having 2 of the rgb values be similar compared to the last rgb value would result in a wider range of hues.
+                        </p>
+                        <p>The colours in Princess Mononoke have been mostly less saturated due to the similar red, green and blue values for each colour. However, there is a wide spectrum of values between different colours, with the brightest colour being (rgb 228, 240, 238) and the darkest colour being (rgb 89, 20, 25).  This colour is also coincidentally the colour with the most saturation as its red value (89) is significantly higher than that of its green and blue values (20 and 25 respectively).
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "movie">
+                <div class = "movieTitle">
+                    <h2>
+                        Spirited Away
+                    </h2>
+
+                <div class = "movieTitlePic">
+                    <img src ="resources/spiritedaway1.jpg">
+                </div>
+
+                </div>
+                <div class = "movieSummary">
+                    <h3>
+                        Summary
+                    </h3>
+                    <p>Spirited Away is a 2001 Japanese animated film written and directed by Hayao Miyazaki. The film tells the story of a 10-year-old girl named Chihiro Ogino, who is separated from her parents and enters a world of spirits and magical creatures.
+                    </p>
+                    <p>After wandering in the spirit world, Chihiro finds work in a bathhouse run by the witch Yubaba. She must work hard to survive and earn her freedom, while also attempting to save her parents from being turned into pigs. As Chihiro learns more about the world of the spirits and gains their trust, she becomes stronger and more confident. She meets a boy named Haku, who helps her and provides guidance along the way.
+                    </p>
+                    <p>
+                        The film explores themes of growing up, identity, and finding one's place in the world. It is known for its stunning animation, imaginative creatures, and memorable characters. Spirited Away received critical acclaim and won numerous awards, including an Academy Award for Best Animated Feature.
+                    </p>
+                </div>
+                <div class = "movieCA">
+                    <div class="moviepicCA">
+                        <img src ="resources/ColourAnalysisPicture/3.png">
+                    </div>
+
+                    <div class ="movieAnalysisCA">
+                        <p>
+                            The main colours that are being featured in this famous train scene are red, blue, green and black.  Chihiro's most recognisable outfit in the movie is also shown in this scene, consisting of red and green. Red and green are contrasting colours from each other on the colour wheel, utilising the colour scheme of complementary colours, therefore making her character design stand out more. 
+                        </p>
+                        <p>There is a higher ratio of high value colours than low values colours featured in this scene. However, intermediate colours such as the red (rgb 154, 48, 57)  seats of the train and dark colours such as the dark greys (rgb 29, 38, 47) of the spirits on the train.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+<!--90s Cyberpunk-->
+    <div class = "cpSection" id ="cpSection">
+            <div class = "cpTitle">
+                <h1>
+                    <b>90s Cyperpunk</b>
+                </h1>
+            </div>
+
+            <div class = "cpintroductionGenre">
+                <div class = "cpintroGenreText">
+                    <div class ="cppictureGenre">
+                        <img src= "resources/cyberpunkcollage.avif">
+                    </div>
+                    <div class = "cpintroGenreTitle">
+                        <h2>Introduction to 90s Cyberpunk</h2>
+                    </div>
+                    <div class = "cpintroGenreBody">
+                        <p>
+                            In the 1990s, cyberpunk anime rose to popularity with its themes of dystopian futures, advanced technology, and gritty urban environments. These anime explored the relationship between humans and technology, often featuring stories that revolved around hackers, cyborgs, and artificial intelligence.
+                        </p>
+                        <p>
+                            90s cyberpunk anime has had a significant impact on science fiction and anime. It introduced a new subgenre of science fiction that explored the relationship between humans and technology in a dystopian society. It highlighted the potential dangers of a future where technology is ubiquitous and can have an adverse impact on human society.Many of the themes explored in 90s cyberpunk anime, such as artificial intelligence, cyborgs, and virtual reality, have become a staple in science fiction and have influenced other media forms such as movies, video games, and literature. This subgenre also explored complex philosophical themes such as the nature of humanity, consciousness, and morality, and challenged the traditional definitions of what it means to be human.
+                        </p>
+                        <p>
+                            Moreover, 90s cyberpunk anime had a significant impact on the anime industry, as it pushed the boundaries of traditional anime storytelling and animation. It introduced a darker and more mature storytelling style, and the animation was often more detailed and sophisticated, which has set the standard for future anime production.
+                        </p>
+                        <p>
+                            Overall, the impact of 90s cyberpunk anime can still be felt today, as its influence has transcended its time and has become a part of the cultural zeitgeist.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "movie">
+                <div class = "movieTitle">
+                    <h2>
+                        Akira
+                    </h2>
+
+                <div class = "movieTitlePic">
+                    <img src ="resources/akira1.jpg">
+                </div>
+
+                </div>
+                <div class = "movieSummary">
+                    <h3>
+                        Summary
+                    </h3>
+                    <p>
+                        "Akira" is a landmark 1988 Japanese animated science fiction film directed by Katsuhiro Otomo. Set in a post-apocalyptic future in the year 2019, it follows a young biker gang member named Tetsuo who gains incredible psychic powers after a motorcycle accident. As Tetsuo struggles to control his newfound abilities, he becomes embroiled in a power struggle between the government, a secret military project, and a group of psychic children led by his friend Kaneda. The film explores themes of power, corruption, and humanity's relationship with technology, and features stunning animation and a memorable soundtrack.
+                    </p>
+                </div>
+                <div class = "movieCA">
+                    <div class="moviepicCA">
+                        <img src ="resources/ColourAnalysisPicture/4.png">
+                    </div>
+
+                    <div class ="movieAnalysisCA">
+                        <p>
+                            Similar to Kiki's delivery service, the main character, Tetsuo wears a bright red jumpsuit which stands out from the remaining colours in the scene. The red he wears (rgb 227, 56, 54) has a much higher red value than blue or green, resulting in a very saturated and vibrant red. In addition, unlike the blues and greens in the scene for Kiki's Delivery service, the red is contrasted with purples and yellows instead, using the triadic colour scheme. 
+                            <br>
+                        </p>
+                        <p>In addition, the rgb values of the remaining colours in this scene has the red, green and blue values being of similar values to each other, highlighting how desaturated most of the scene and also movie is. This emphasises not only the dreary and dirty environment, but also Tetsuo's striking outfit. 
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "movie">
+                <div class = "movieTitle">
+                    <h2>
+                        Ghost in the Shell
+                    </h2>
+
+                <div class = "movieTitlePic">
+                    <img src ="resources/ghostintheshell1.jpg">
+                </div>
+
+                </div>
+                <div class = "movieSummary">
+                    <h3>
+                        Summary
+                    </h3>
+                    <p>
+                        "Ghost in the Shell" is a 1995 Japanese animated science-fiction film directed by Mamoru Oshii. The story is set in a future world where humans have cyberbrains and can connect to networks with their minds. The main character, Major Motoko Kusanagi, is a cyborg who works for Section 9, a special-operations task force assigned to combat cyber-terrorism and other high-tech crimes.
+                    </p>
+                    <p>
+                        When a powerful hacker known as the Puppet Master begins infiltrating the minds of key government officials and manipulating their thoughts, Major Kusanagi and her team are tasked with tracking down the elusive criminal. As they investigate, they discover that the Puppet Master may not be a criminal at all, but rather a sentient program that has gained self-awareness and is seeking a way to become fully human. As Major Kusanagi delves deeper into the Puppet Master's motives, she begins to question her own existence and what it means to be human in a world where technology and the human mind are becoming increasingly intertwined. The film explores themes of identity, consciousness, and the nature of existence in a rapidly changing world.
+                    </p>
+                    <p>
+                        "Ghost in the Shell" is widely regarded as a classic of the cyberpunk genre and has had a significant impact on science fiction and anime. It has inspired numerous adaptations and spin-offs, including a 2017 live-action film adaptation starring Scarlett Johansson.
+                    </p>
+                </div>
+                <div class = "movieCA">
+                    <div class="moviepicCA">
+                        <img src ="resources/ColourAnalysisPicture/5.png">
+                    </div>
+
+                    <div class ="movieAnalysisCA">
+                        <p>
+                            This scene in Ghost in the shell utlises the analogue colour palette as the main colours of this scene are: blue, green and yellow, which are colours that are next to each other on the colour wheel. This scene is able to encapsulate the general colour tint of the movie, which steers towards blue and green.
+                            <br>
+                        </p>
+                        <p>The yellow green (rgb 133, 175, 127) and grey (rgb 199, 196, 189) that is being used in this scene is comparatively lighter than the other colours in this scene as all 3 of its values are above 100. These colours are used at the center of the screen, acting as the focal point that our eyes are drawn to. In addition, the colour contrast and the glowing gradient effect of this scene results in a effect that mimics heaven's light, which works in the context of this scene.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "movie">
+                <div class = "movieTitle">
+                    <h2>
+                        Neon Genesis Evangelion
+                    </h2>
+
+                <div class = "movieTitlePic">
+                    <img src ="resources/evangelion1.png">
+                </div>
+
+                </div>
+                <div class = "movieSummary">
+                    <h3>
+                        Summary
+                    </h3>
+                    <p>
+                        Neon Genesis Evangelion is a Japanese animated television series that follows the story of Shinji Ikari, a teenage boy who is recruited by his father to pilot a giant bio-machine mecha called an "Evangelion" to fight monstrous beings known as "Angels" that are threatening the world. Shinji struggles with his own emotions and relationships with his fellow pilots and the adults who control the Evangelion program, as they uncover dark secrets about the origin and purpose of the Angels, the Evangelion program, and their own existence. The series explores themes of identity, psychology, religion, and human evolution, and has been praised for its unique blend of action, drama, and philosophical depth.
+                    </p>
+                </div>
+                <div class = "movieCA">
+                    <div class="moviepicCA">
+                        <img src ="resources/ColourAnalysisPicture/6.png">
+                    </div>
+
+                    <div class ="movieAnalysisCA">
+                        <p>
+                            The main colours in this scene consist of black, purple, blue and bright green as an accent colour, utilising the analogue colour palette, similar to in Ghost in the Shell.  Another similarity for both movies is the presence of a brighter, more saturated colour, which is in this case bright green (rgb 142, 203, 86). 
+                            <br>
+                        </p>
+                        <p>Another observation that can be seen in the colours of this scene, is that 2 of the 3 rgb values are closer to each other compared to the third colour, which results in the colours to be more saturated and differentiated from each other, such as the medium purple (99, 75, 149) having the red and green numerical value be closer to each other than the blue value.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+    </div>
+
+<!--New Age-->
+    <div class = "naSection" id ="naSection">
+
+        <div class = "naTitle">
+            <h1>
+                <b>New Age</b>
+            </h1>
+        </div>
+
+        <div class = "naintroductionGenre">
+            <div class = "naintroGenreText">
+                <div class ="napictureGenre">
+                    <img src= "resources/newage1.jpg">
+                </div>
+                <div class = "naintroGenreTitle">
+                    <h2>Introduction to New Age Anime</h2>
+                </div>
+                <div class = "naintroGenreBody">
+                    <p>
+                        "New Age" modern anime generally refers to anime produced in the late 2000s to the present day. This period is characterized by significant changes in the anime industry, including the rise of digital animation and streaming services.
+                    </p>
+                    <p>
+                        One of the defining features of "New Age" modern anime is the diversity of genres and themes. While anime has always featured a wide range of genres, modern anime has expanded to include more unconventional and experimental storytelling, as well as more diverse representation of characters and themes. Another notable feature of "New Age" modern anime is the influence of social media and online fan communities. Anime producers are increasingly aware of the importance of fan engagement and often incorporate fan feedback and expectations into their storytelling and character development.
+                    </p>
+                    <p>
+                        In terms of animation, "New Age" modern anime often features highly detailed and fluid animation, often incorporating 3D animation and motion capture technology. This allows for more dynamic and intricate action scenes and greater visual fidelity overall.
+                    </p>
+                    <p>
+                        Overall, "New Age" modern anime represents a continuation and evolution of the anime industry, incorporating new technologies and storytelling techniques while retaining the unique artistic and narrative qualities that have made anime a beloved and enduring art form.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class = "movie">
+            <div class = "movieTitle">
+                <h2>
+                    Your Name
+                </h2>
+
+            <div class = "movieTitlePic">
+                <img src ="resources/yourname1.png">
+            </div>
+
+            </div>
+            <div class = "movieSummary">
+                <h3>
+                    Summary
+                </h3>
+                <p>
+                    "Your Name" is a critically acclaimed anime film directed by Makoto Shinkai and produced by CoMix Wave Films. The film was released in Japan in 2016 and became the highest-grossing anime film of all time worldwide, earning over $350 million.
+                <p>
+                    "Your Name" is a Japanese animated movie directed by Makoto Shinkai. The film tells the story of Taki and Mitsuha, two high school students who live in different parts of Japan but suddenly find themselves connected in a mysterious way. Taki wakes up in Mitsuha's body, and she wakes up in his, each experiencing the other's life for a day at a time. As they try to figure out what is happening to them, they form a deep connection, but their time together is limited as they are pulled back into their own lives.
+                </p>
+                <p>
+                    The film explores themes of memory, identity, and the power of connection, with stunning animation and a beautiful score by composer Radwimps. It has received widespread critical acclaim for its storytelling and animation, and has been praised for its ability to blend multiple genres, including romance, comedy, and science fiction.
+                </p>
+            </div>
+            <div class = "movieCA">
+                <div class="moviepicCA">
+                    <img src ="resources/ColourAnalysisPicture/7.png">
+                </div>
+
+                <div class ="movieAnalysisCA">
+                    <p>
+                        The main focus of this scene is the brilliant gradient sky during golden hour, which occurs during the climax of the movie. This scene attempts the opposite of the cyberpunk scenes that have been covered, using a silhouette to spotlight the focal point of the scene instead of using a spotlight. Taki and Mitsuha are coloured in with different browns, having low rgb values, as compared to the background with lighter values of above 100.
+                        <br>
+                    </p>
+                    <p>
+                        In addition, the colour palette that Is utilised is pastel rather than dark and desaturated, with colours having similarly high rgb values to each other, with one of the rgb values a larger difference compared to the other two rgb values to allow for variation in hues, such as the pastel purple (rgb185, 140, 181). Most of the sunset gradient consisted of an analogue colour scheme of blues and purples, with a stand out accent colour that is complementary in the form of orange (rgb 217, 150, 144).
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class = "movie">
+            <div class = "movieTitle">
+                <h2>
+                    A Silent Voice
+                </h2>
+
+            <div class = "movieTitlePic">
+                <img src ="resources/silentvoice.png">
+            </div>
+
+            </div>
+            <div class = "movieSummary">
+                <h3>
+                    Summary
+                </h3>
+                <p>
+                    "A Silent Voice" is a 2016 Japanese anime film based on the manga series of the same name. The story follows a young boy named Shoya Ishida who, as a child, used to bully a deaf girl named Shoko Nishimiya. Several years later, he has grown up and regrets his past behavior. Determined to make amends, he sets out to find Shoko and apologize for his actions. Along the way, he discovers the depth of her struggles with being deaf and the impact his past behavior has had on her life. The movie explores themes of bullying, redemption, and forgiveness.
+                </p>
+            </div>
+            <div class = "movieCA">
+                <div class="moviepicCA">
+                    <img src ="resources/ColourAnalysisPicture/8.png">
+                </div>
+
+                <div class ="movieAnalysisCA">
+                    <p>
+                        The colour palette of this scene does not follow the conventional colour schemes, rather it features a combination of both browns and pastel blue, pink and green. The contrast can be observed through the rgb values, as observed by how half the colours have very high rgb values, such as pastel pink (rgb 232, 198, 203), compared to the darker brown colours with lower rgb values, such as (rgb 48, 32, 16).
+                        <br>
+                    </p>
+                    <p>
+                        As a result, the focus of this scene is that of the atmosphere and environment that the scene is taking place in. The cherry blossoms in the background, nice weather and the traditional yet beautiful bridge is the focus of this scene to highlight the romantic atmosphere and tension between Shoko and and Shoya.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class = "movie">
+            <div class = "movieTitle">
+                <h2>
+                    Belle
+                </h2>
+
+            <div class = "movieTitlePic">
+                <img src ="resources/belle1.jpg">
+            </div>
+
+            </div>
+            <div class = "movieSummary">
+                <h3>
+                    Summary
+                </h3>
+                <p>
+                    "Belle" is a 2021 Japanese animated film directed by Mamoru Hosoda. The movie is set in a world called "U," where a popular virtual world called "Another" is used to escape reality. The story follows a 17-year-old high school girl named Suzu, who lives in a rural town and has a talent for singing. She enters "Another" and becomes "Belle," a virtual superstar singer who captivates fans all over the world. However, as her popularity grows, Suzu begins to question the true nature of "Another" and the authenticity of her online persona. Meanwhile, a mysterious creature threatens the virtual world and Suzu must use her singing to save it. The movie explores themes of identity, self-discovery, and the relationship between humans and technology.
+                </p>
+            </div>
+            <div class = "movieCA">
+                <div class="moviepicCA">
+                    <img src ="resources/ColourAnalysisPicture/9.png">
+                </div>
+
+                <div class ="movieAnalysisCA">
+                    <p>
+                        This scene from Belle utilises an analogous colour scheme, with its main colours being blue, purple and red, which are next to each other in the colour wheel. The setting of the night sky and the mysterious creature are of a darker to mid value colours, such as dark cyan (33, 68, 88), resulting in lower to mid rgb values. However, Belle has a midtone to pastel colour scheme, consisting of colours of mid to high rgb values such as pastel purple (rgb 225, 185, 234).  This allow for Belle to stand out more in the scene as well as serve the purposes of being the light and hope in the monster's eyes.
+                        <br>
+                    </p>
+                    <p>
+                        Another observation that could be made is that gradients are heavily used in this scene, resulting in the rgb values of certain colours to be similar, such as pastel orange-red  (rgb 244, 153, 160) and midtone red (170, 57, 87) as the red has the highest value, followed by blue and lastly green for both colours. 
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+<!--Graphical analysis-->
+<div class="graphicalAnalysis">
+    <div class="graphicalAnalysisTitle">
+      <h1>Statistical Colour Analysis</h1>
+    </div>
+
+    <div class="barChartText">
+        <p>abc</p>
+    </div>
+
+    <div class="gaSection">
+      <div class="gaBarChart">
+            <div class="gaTitle">
+            <h2>Average RGB values across genres</h2>
+            </div>
+
+            <canvas id="barChart"></canvas>
+        
+      </div>
+      
+      <div class="gaBarChart">
+            <div class="gaTitle">
+            <h2>Sum RGB values across genres</h2>
+            </div>
+
+            <canvas id="barChart2"></canvas>
+
+      </div>
+      
+    
+    </div>
+
+    <div class="ChartText">
+            <p>abc</p>
+    </div>
+
+    <div class="donutSection">
+        <div class="gaDonutChart">
+            <div class="gaDonutTitle">
+            <h2>Kiki's Delivery Service</h2>
+            </div>
+
+            <div id="donutChart"></div>
+           
+        </div> 
+
+        <div class="gaDonutChart">
+            <div class="gaDonutTitle">
+            <h2>Akira</h2>
+            </div>
+
+            <div id="donutChart2"></div>
+           
+        </div> 
+
+        <div class="gaDonutChart">
+            <div class="gaDonutTitle">
+            <h2>Belle</h2>
+            </div>
+
+            <div id="donutChart3"></div>
+           
+        </div> 
+ 
+    </div>
+
+  </div>
+  
+
+
+<!--page footer-->
+    <div class="pageFooter">
+            <!-- <button type="button" onclick="nextquizpage()" id="clickbutton"> Click for Quiz Page</button> -->
+            <a href="../FinalProj/page1.html">Back to About Page</a>
+        </div>
+
+</div>
+</body>
+</html>
